@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Scooti",
+    "slug": "scooti",
+    "jsEngine": "hermes",
+    "scheme": "com.scooti.com",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F7EB"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.scooti.com",
+      "icon": "./assets/icon.png",
+      "buildNumber": "1",
+      "config": {
+        "googleMapsApiKey": "AIzaSyC-eXkTG4MKAak4bBJ_JkjvG9HZkKyexGk"
+      }
+    },
+    "android": {
+      "package": "com.scooti.com",
+      "versionCode": 1,
+      "softwareKeyboardLayoutMode": "pan",
+      "icon": "./assets/icon.png",
+      "permissions": [],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC-eXkTG4MKAak4bBJ_JkjvG9HZkKyexGk"
+        }
+      }
+    },
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ACBB72"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#ACBB72"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c112094b-9264-4748-a9cf-076597017297"
+      }
+    }
+  }
+}
